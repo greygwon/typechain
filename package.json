@@ -1,0 +1,11 @@
+{
+    "name": "typechain",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc-watch --onSuccess \" node dist/index.js \"",
+        "prestart": "tsc"
+    },
+    "devDependencies": {
+        "tsc-watch": "^1.0.22"
+    }
+}
